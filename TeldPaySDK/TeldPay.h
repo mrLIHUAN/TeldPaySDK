@@ -9,9 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <JavaScriptCore/JavaScriptCore.h>
 #import <UIKit/UIKit.h>
-#import "UNWebView.h"
-#import "TeldPay.h"
-#import "TeldPayManager.h"
+//typedef void (^ResponseBlock)(id response);
+
 @protocol JavaScriptObjectiveCDelegate <JSExport>
 //
 //-(void)charge:;(NSString *)params

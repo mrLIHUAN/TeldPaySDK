@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UNWebView.h"
-#import "TeldPay.h"
-#import "TeldPayManager.h"
+
 @interface UNWebView : UIViewController
 @property(nonatomic,strong)NSString *html;
+//@property(nonatomic,strong)UIColor *UNNavColor;
 @end
