@@ -1,12 +1,12 @@
 
 Pod::Spec.new do |s|  
   s.name             = "TeldPaySDK" 
-  s.version          = "1.0.1"
+  s.version          = “1.0.2"
   s.summary          = "支付中心"
   s.homepage         = "https://github.com/mrLIHUAN/TeldPaySDK"   
   s.license          = 'MIT'  
   s.author           = { "mrLIHUAN" => "1139116598@qq.com" }  
-  s.source           = { :git => "https://github.com/mrLIHUAN/TeldPaySDK.git", :tag => "1.0.1"}   
+  s.source           = { :git => "https://github.com/mrLIHUAN/TeldPaySDK.git", :tag => "1.0.2"}   
   s.requires_arc = true  
   s.ios.deployment_target = '8.0'
   s.source_files = 'TeldPaySDK/*.*'
