@@ -1,3 +1,4 @@
+
 Pod::Spec.new do |s|  
   s.name             = "TeldPaySDK" 
   s.version          = "1.0.1"
@@ -15,6 +16,7 @@ Pod::Spec.new do |s|
   # 'CryptoSwift' => ['0.2.2'],
    #’SnapKit' => ['0.19.1']
   # }
-  s.frameworks = 'SystemConfiguration', 'CoreGraphics', 'UIKit', 'CoreTelephony','CoreText','CoreMotion','QuartzCore','CFNetwork','JavaScriptCore','libsqlite3.tbd','libz.tbd','libc++.tbd','libsqlite3.0.tbd'
+  s.frameworks = 'SystemConfiguration','CoreGraphics', 'UIKit', 'CoreTelephony','CoreText','CoreMotion','QuartzCore','CFNetwork','JavaScriptCore'
+s.libraries = 'z', 'c++'
 
 end 
