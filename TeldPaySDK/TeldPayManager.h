@@ -9,7 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "WXApi.h"
 #import <AlipaySDK/AlipaySDK.h>
-
+#import "UNWebView.h"
+#import "TeldPay.h"
+#import "TeldPayManager.h"
 //新添加的代理
 @protocol TeldPaySDKDelegate <NSObject>
 

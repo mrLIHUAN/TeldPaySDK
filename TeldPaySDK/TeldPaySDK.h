@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "UNWebView.h"
+#import "TeldPay.h"
+#import "TeldPayManager.h"
 @interface TeldPaySDK : NSObject
 
 @end
