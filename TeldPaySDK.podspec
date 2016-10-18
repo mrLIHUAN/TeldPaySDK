@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
   s.name             = "TeldPaySDK" 
-  s.version          = "1.0.0" 
+  s.version          = "1.0.5" 
   s.summary          = "支付中心"  
   s.homepage         = "https://github.com/mrLIHUAN/TeldPaySDK"   
   s.license          = 'MIT'  
